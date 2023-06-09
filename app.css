@@ -1,0 +1,73 @@
+body {
+    background-color: #ffffff;
+    /* align-items: center; */
+}
+
+.header {
+    display: inline;
+}
+
+#head {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+
+#headleft {
+    display: inline;
+}
+
+#headright {
+    display: inline;
+}
+
+#MLogo {
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+}
+
+#Mag {
+    width: 50px;
+    height: 50px;
+}
+
+#SearchButton {
+    box-shadow: 2px 2px 2px 0.8px grey;
+    color: black;
+    padding: 1px 10px 1px 10px;
+    right: 2px;
+    height: 1.5em;
+}
+
+#SearchButton:hover {
+    transform: translateY(0.25em);
+    box-shadow: 0px 0px 2px 0.8px grey;
+    transition: 0.5s;
+}
+
+
+/* poster image */
+#poster {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+
+#filtered {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenlys;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 0px;
+    width: 400px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
